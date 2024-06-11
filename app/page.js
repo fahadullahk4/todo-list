@@ -83,7 +83,7 @@ const Page = () => {
 				<input
 					className="border-2 rounded text-xl border-black p-2 mb-5"
 					type="text"
-					placeholder="Enter your Task here..."
+					placeholder="Enter your Task"
 					value={task}
 					onChange={(e) => {
 						setTask(e.target.value);
@@ -92,7 +92,7 @@ const Page = () => {
 				<input
 					className="border-2 rounded text-xl border-black p-2 mb-5"
 					type="text"
-					placeholder="Enter your Description here..."
+					placeholder="Enter your Description"
 					value={desc}
 					onChange={(e) => {
 						setDesc(e.target.value);
